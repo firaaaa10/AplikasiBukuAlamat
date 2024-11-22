@@ -414,8 +414,78 @@ private void inputCariActionPerformed(java.awt.event.ActionEvent evt) {
         });
     }        
 ```
+# 6. Class Kontak 
+# Deskripsi
+Kontak adalah sebuah class dalam Java yang dirancang untuk merepresentasikan data kontak seseorang. Class ini menyimpan informasi berupa nama, alamat, dan nomor telepon dari kontak tersebut. Anda dapat menggunakan class ini untuk mengelola data kontak pada aplikasi berbasis Java.
+```
+class Kontak {
+    private String nama;
+    private String alamat;
+    private String telepon;
 
-# 6. Tampilan Pada Saat Aplikasi Di Jalankan
+    // Constructor
+    public Kontak(String nama, String alamat, String gambar) {
+        this.nama = nama;
+        this.alamat = alamat;
+        this.telepon = gambar;
+    }
+
+    // Getter dan Setter
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getTelepon() {
+        return telepon;
+    }
+
+    public void setTelepon(String telepon) {
+        this.telepon = telepon;
+    }
+}
+```
+# Struktur Class
+Class Kontak memiliki atribut, konstruktor, serta metode getter dan setter sebagai berikut:
+# Atribut
+1. nama
+Tipe: String
+Menyimpan nama kontak.
+
+2. alamat
+Tipe: String
+Menyimpan alamat kontak.
+
+3. telepon
+Tipe: String
+Menyimpan nomor telepon kontak.
+# Konstruktor 
+```
+public Kontak(String nama, String alamat, String telepon)
+```
+Konstruktor digunakan untuk menginisialisasi objek Kontak dengan nilai nama, alamat, dan telepon.
+# Getter dan Setter
+- getNama() / setNama(String nama)
+Mengambil atau mengubah nilai dari atribut nama.
+
+- getAlamat() / setAlamat(String alamat)
+Mengambil atau mengubah nilai dari atribut alamat.
+
+- getTelepon() / setTelepon(String telepon)
+Mengambil atau mengubah nilai dari atribut telepon.
+
+# 7. Tampilan Pada Saat Aplikasi Di Jalankan
 ![](https://github.com/firaaaa10/SitiSafira-2210010336-UTSPBO2/blob/main/Cuplikan%20layar%202024-11-21%20195345.png)
 
 ## Indikator Penilaian:
